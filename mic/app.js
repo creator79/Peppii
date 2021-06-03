@@ -1,5 +1,5 @@
 let Commands;
-const API_KEY = "77e48ff07f547668e7b10424afa62bae";
+const API_KEY = "you api key";
 // AIzaSyBao6CqFvXsrfko3Tx46FvQAdm2COHtiqQ
 
 
@@ -104,7 +104,7 @@ function manipulateWeatherData(data) {
 }
 //********************************************************************************joke api****************************************************** */
 function getJokes() {
-    fetch('https://official-joke-api.appspot.com/jokes/programming/random')
+    fetch('enter your api key')
         .then(res => res.json())
         .then(data => {
             const jokes = data[0];
